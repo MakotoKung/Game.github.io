@@ -6,13 +6,12 @@
 }
 body{
     font-family: 'Common Pixel', sans-serif;
-    overflow-y: 1000px;
+    overflow-y: 600px;
 }
-.wallpapper{
-    width: 1000px;
-    height: 1000px;
-    z-index: 0;
-    position: relative
+.background-image{
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100vh;
 
 }
 .button-1{
@@ -33,13 +32,13 @@ body{
     z-index: 10;
     right: 0;
 }
-.button-1 :hover{
+.button-1:hover{
     background-color: black;
     font-weight: bolder;
     color: yellow;
     font-size: 2.5rem;
 }
-.button-2 :hover{
+.button-2:hover{
     background-color: darkgray;
     font-weight: bolder;
     color: orange;
