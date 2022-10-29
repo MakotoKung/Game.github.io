@@ -17,36 +17,55 @@ body{
 
 }
 .button-1{
-    background-color: darkblue;
+    background-color:none;
     font-weight: bolder;
     color: white;
     font-size: 2.5rem;
     position: absolute;
     z-index: 10;
-    left: 16%;
+    left: 0.5%;
     padding: 15px;
-    top: 90%;
+    top: 60%;
 }
 .button-2{
-    background-color: darkgray;
+    background-color: none;
     font-weight: bolder;
     color: white;
     font-size: 2.5rem;
     position: absolute;
     z-index: 10;
-    right: 16%;
+    left: 0.5%;
     padding: 15px;
-    top: 90%;
+    top: 70%;
+}
+.button-bg{
+    background-color: blue;
+    left: -100%;
+    z-index: 5;
+    width: 340px;
+    height: 70px;
+    top: 60%;
+    position: absolute;
 }
 .button-1:hover{
     background-color: black;
     font-weight: bolder;
     color: yellow;
     font-size: 2.5rem;
+    opacity: 100%;
+    transition: 0.5s;
 }
 .button-2:hover{
-    background-color: darkgray;
+    background-color: white;
     font-weight: bolder;
     color: orange;
     font-size: 2.5rem;
+    transition: 0.5s;
+}
+p{
+    top: 96.5%;
+    position: absolute;
+    color: white;
+    right: 0.5%;
+    font-size: 1.5rem;
 }
