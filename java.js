@@ -1,9 +1,8 @@
-var turtel = new Image();
-var context = sea.getContext('2d');
-turtel.src = "https://github.com/MakotoKung/Game.github.io/blob/main/img/e02fa1d96fd850c.png?raw=true"
-turtleSize = 100;
+var btn = document.getElementById('active');
+var rec = document.getElementById('rec');
+var op0 = document.getElementById('op0');
 
-sea.onclick = ()=> { turtleDY = 8 }
-setInterval(()=> {
-    context.fillstyle = "skyblue";
-})
+btn.onclick = function(){
+    rec.classList.toggle('rec');
+    op0.classList.toggle('op0');
+};

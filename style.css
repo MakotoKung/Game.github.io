@@ -26,6 +26,7 @@ body{
     left: 0.5%;
     padding: 15px;
     top: 60%;
+    cursor: pointer;
 }
 .button-2{
     background-color: none;
@@ -37,6 +38,7 @@ body{
     left: 0.5%;
     padding: 15px;
     top: 70%;
+    cursor: pointer;
 }
 .button-bg{
     background-color: blue;
@@ -68,4 +70,18 @@ p{
     color: white;
     right: 0.5%;
     font-size: 1.5rem;
+}
+.rec{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    background-color: #2346a6;
+    width: 50%;
+    height: 60%;
+    border-radius: 20px;
+    border: 10px solid #a2c8ff;
+}
+.op0{
+    opacity: 0;
+    cursor: hidden;
 }
