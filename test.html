@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turtle Adventure </title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .game {
             position: relative;
@@ -14,7 +15,11 @@
     </style>
 </head>
 <body style="background-color: skyblue;">
-
+  <div class="btn">
+    <a href="index.html">
+        Home 
+    </a>
+  </div>
     <canvas id="c" width="800" height="500" class="game ">
 
     </canvas>
@@ -39,6 +44,7 @@
             pipeX -= 10; // Move pipe
             pipeX < -pipeWidth && ((pipeX = canvasSize), (topPipeBottomY = pipeGap * Math.random()))
             // reset pipe and random pipe gap
+            context.fillStyle = "orange"
             context.fillRect(pipeX, 0, pipeWidth, topPipeBottomY); // Draw top pipe
             context.fillRect(pipeX, topPipeBottomY + pipeGap, pipeWidth, canvasSize); // Draw bottom pipe
             context.fillStyle = "black";
